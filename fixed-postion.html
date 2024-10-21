@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed position</title>
+    <style>
+        .swim-container {
+            width: 900px;
+            border: 2px solid green;
+            padding: 15px;
+        }
+
+        .other-container{
+            width: 600px;
+            border: 2px solid red;
+
+        }
+
+        .box {
+            width: 200px;
+            border: 2px solid purple;
+        }
+
+        .ring {
+            position: fixed;
+            top: 30px;
+            right: 40px;
+        }
+
+        .dummy{
+            width: 200px;
+            height: 200px;
+            border: 2px solid blue;
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>scroll-related positions</h3>
+    <ol>
+        <li>fixed : nijer postion thakbe na kintu webpage er ekta jaygay atke thakbe seta kar container hok dekhar bishoy na</li>
+        <li>sticky : nijer container e kaj korbe kintu nijer container sesh hoye gele onner container e ar kaj korbe nah</li>
+    </ol>
+
+
+    <h1>example of fixed position:</h1>
+    <div class="swim-container">
+        <div class="box boy">
+            <img src="swim/boy.svg" alt="">
+        </div>
+
+        <div class="box ring">
+            <img src="swim/ring.svg" alt="">
+        </div>
+
+        <div class="box water">
+            <img src="swim/water.svg" alt="">
+        </div>
+
+        <div class="dummy">
+            <p>lorem-1</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-2</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-3</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-4</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-5</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-6</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-7</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-8</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-9</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-10</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-11</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-12</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-13</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-14</p>
+        </div>
+        <div class="dummy">
+            <p>lorem-15</p>
+        </div>
+    </div>
+
+    <div class="other-container">
+        <div class="dummy">
+            <p>other-11</p>
+        </div>
+        <div class="dummy">
+            <p>other-21</p>
+        </div>
+        <div class="dummy">
+            <p>other-31</p>
+        </div>
+        <div class="dummy">
+            <p>other-41</p>
+        </div>
+        <div class="dummy">
+            <p>other-51</p>
+        </div>
+    </div>
+</body>
+
+</html>

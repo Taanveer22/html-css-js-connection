@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute position parent</title>
+    <style>
+        .swim-container {
+            position: relative;
+            width: 900px;
+            border: 2px solid green;
+            padding: 15px;
+        }
+
+        .box {
+            width: 200px;
+            border: 2px solid purple;
+        }
+
+        .ring {
+            position: absolute;
+            top: 30px;
+            left: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>flow-related positions</h2>
+    <ol>
+        <li>static</li>
+        <li>relative : current position er relative e kototuku change hobe ebong nijer jayga chere jabe na</li>
+        <li>absolute : nijer position harabe ar root er position onyjayi change hobe ar jodi parent er position deya
+            thake tahole parent positon onujayi change hobe</li>
+    </ol>
+
+
+    <h1>example of absolute position parent:</h1>
+    <div class="swim-container">
+        <div class="box boy">
+            <img src="swim/boy.svg" alt="">
+        </div>
+
+        <div class="box ring">
+            <img src="swim/ring.svg" alt="">
+        </div>
+
+        <div class="box water">
+            <img src="swim/water.svg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
